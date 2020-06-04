@@ -33,7 +33,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--image_size', type=int, default=224 ,
                     help='size for input images')
 parser.add_argument('--sis_path', type=str,
-                    default='./data/sis/test.story-in-sequence.json')
+                    default='./data/sis_2/test.story-in-sequence.json')
 parser.add_argument('--result_path', type=str,
                     default='./result.json')
 parser.add_argument('--log_step', type=int , default=10,

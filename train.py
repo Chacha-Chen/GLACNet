@@ -165,10 +165,10 @@ if __name__ == '__main__':
     parser.add_argument('--val_image_dir', type=str, default='./data/val' ,
                         help='directory for resized val images')
     parser.add_argument('--train_sis_path', type=str,
-                        default='./data/sis/train.story-in-sequence.json',
+                        default='./data/sis_2/train.story-in-sequence.json',
                         help='path for train sis json file')
     parser.add_argument('--val_sis_path', type=str,
-                        default='./data/sis/val.story-in-sequence.json',
+                        default='./data/sis_2/val.story-in-sequence.json',
                         help='path for val sis json file')
     parser.add_argument('--log_step', type=int , default=20,
                         help='step size for prining log info')

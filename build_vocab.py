@@ -69,7 +69,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--sis_path', type=str,
-                        default='./data/sis/train.story-in-sequence.json',
+                        default='./data/sis_2/train.story-in-sequence.json',
                         help='path for train sis file')
     parser.add_argument('--vocab_path', type=str, default='./models/vocab.pkl',
                         help='path for saving vocabulary wrapper')
